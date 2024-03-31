@@ -1,7 +1,7 @@
-body{
-/*     background: linear-gradient(to bottom, #32AEB1, #d2fcfd);
- */ }
-.relevent_products{
+body {
+    background: linear-gradient(to bottom, #32AEB1, #d2fcfd);
+}
+.relevant_products {
     text-transform: uppercase;
     color: black;
     font-weight: 100;
@@ -14,12 +14,12 @@ body{
     text-underline-position: under;
     margin-bottom: 30px;
 }
-.search_products{
+.search_products {
     background: linear-gradient(to bottom, #32AEB1, #d2fcfd);
     min-height: 47pc;
 }
 
-.no_product{
+.no_product {
     text-transform: uppercase;
     color: red;
     font-weight: 100;
@@ -30,13 +30,13 @@ body{
     text-align: center;
 }
 
-@media only screen and (max-width:555px) {
-    .relevent_products {
+@media only screen and (max-width: 555px) {
+    .relevant_products {
         letter-spacing: 6px;
         font-size: 16px;
         padding-top: 34px;
     }
-    .no_product{
+    .no_product {
         font-size: 15px;
     }
 }
