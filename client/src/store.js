@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, combineReducers } from "redux";
-
 import thunk from "redux-thunk";
+
 import { composeWithDevTools } from "redux-devtools-extension";
 import {
   productsReducer,
@@ -70,7 +70,6 @@ let initialState = {
       : {},
   },
 };
-
 
 //This will contain the array of all the middleware
 const middleware = [thunk];
